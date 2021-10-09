@@ -3,7 +3,7 @@
 
 
 ### Resources
-- [Canopy Api Documentation](http://help.canopyapp.net/api/index.html) _references the Australian endpoint_
+- [Canopy Api Documentation](http://help.canopyapp.net/api/index.html) _the US hostname is usapi.canopyapp.net_
 
 
 ## Implemented Provider services
