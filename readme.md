@@ -1,6 +1,6 @@
 ﻿# **Using Canopy.Mediator API DLL**
 
-
+The Canopy API is very bare and requires the consumer to understand how to encode the account ID and key and to understand a hand-full of undocumented nuance in order to successfully make API calls.  This library wraps around the API and provides the consumer with a more streamlined and fluent experience.
 
 ### Resources
 - [Canopy Api Documentation](http://help.canopyapp.net/api/index.html) _the US hostname is usapi.canopyapp.net_
