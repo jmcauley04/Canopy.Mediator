@@ -1,5 +1,5 @@
 ﻿# **Using Canopy.Mediator API DLL**
-
+ 
 The Canopy API is very bare and requires the consumer to understand how to encode the account ID and key and to understand a hand-full of undocumented nuance in order to successfully make API calls.  This library wraps around the API and provides the consumer with a more streamlined and fluent experience.
 
 ### Resources
@@ -138,9 +138,9 @@ Defaults to 0
 
 Used for paging, this is required when WithBatchSize is used; returns page _n_.  Alternatively, this can be thought of as returning items in the range
 
-$
-[(n * qty) + 1, (n * qty) + qty]
-$
+```
+[nq + 1, nq + q] where n is the batchNumber or page and q is the batchSize     
+```
 
 ### _Where<TKey>(Expression<Func<T, TKey>> keySelector, Comparator comparator, string value)_
 
